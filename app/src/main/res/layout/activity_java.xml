@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.totalh.tutoria.Activities.JavaActivity">
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/index_of_java"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+<android.support.v7.widget.RecyclerView
+    android:layout_below="@+id/index"
+    android:id="@+id/recyclerViewJava"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</android.support.v7.widget.RecyclerView>
+</RelativeLayout>
